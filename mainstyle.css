@@ -1,0 +1,248 @@
+
+/*set font and size of all the page*/
+body{
+	
+	font-family: "Comic Sans MS", cursive, sans-serif ;
+	margin: 0;
+	height:100%;
+}
+	
+/* Use a media query to add a break point at 800px: 
+@media screen and (max-width:800px) { 
+	
+   
+}	*/
+
+
+/*nav settings*/	
+nav{
+	position: sticky;/* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	height:auto;
+	padding:1%;
+    background-color: #333;
+	z-index: 1;
+	text-align:center;
+}
+
+ nav a{
+	padding:1%;
+	text-decoration: none;
+	color:White;
+
+ }
+
+nav a:hover {
+  background-color: #111;
+}
+
+/* end of nav settings*/
+
+
+
+
+
+/*all pages make parallax scrolling effect*/
+.pageuno, .pagedos, .pagetres, .pagecuatro{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height:100%;
+	padding:1%;	
+
+}
+
+
+
+/*only page 1*/
+
+.pageuno{
+	background-image:url(photos/Farnacia.jpg);
+	
+}
+@media screen and (max-width:800px) { 
+	.pageuno{
+		background-image:url(photos/logo2.jpg);
+
+	}
+	.services1, .info{
+		width:auto!important;
+		margin-left:10%!important;
+		margin-right:10%!important;
+		float:none;
+	}
+   #services{
+		margin-top:2%!important;
+		margin:auto;
+   }
+}
+
+
+.info {
+	border-radius: 10px;
+	text-align:center;
+	background-color:white;
+	min-width:200px;
+	margin:auto;
+	padding:1;
+	width:35%;
+	height:auto;
+	opacity: 0.9;
+	margin-top:6%;	
+		box-shadow: 0 0 51px black;
+}
+	
+	
+#logo{
+	display:block;
+	margin:auto;
+	height:150px;
+	width:150px;
+
+}
+
+
+/*navtigation buttons settings*/
+.info a{
+	color: Blue;
+    text-decoration: none;
+
+	
+	
+}
+
+#email{
+	font-size:100%;
+	}
+
+	
+	
+p a:hover{
+		background-color:white;
+		color:red;
+	
+}
+/*end of page 1*/
+/*end of page1*/
+
+
+/*		PAGE 2*/
+/*only page 2*/
+.pagedos{
+	background-image:url(photos/logo3.jpg);
+	overflow:auto;
+	
+}	
+
+
+
+.services1{
+	opacity:0.98;
+	background-color:#00529E;
+	width:35%;
+	text-align:center;
+	padding:1%;
+	border-radius: 10px;
+	margin-left:15%;
+
+}
+
+#services{
+	margin-bottom:10%;
+	margin-left:5%;
+}
+
+
+.services1, #services{
+	display:inline-block;
+	box-shadow: 0 0 51px black;
+
+}
+
+
+/*page number 2. services*/
+.pagetres{
+	background-image:url(photos/logo4.jpg);
+	background-color:#00529E;
+
+}
+.app{
+	width:50%;
+	margin-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:pink;
+	opacity:.9;
+	padding:1%;
+	text-align:center;
+	border-radius: 20px;
+	overflow: hidden;
+		box-shadow: 0 0 51px black;
+
+}
+
+
+#appstore, #playstore{
+	display:block;	
+	margin-left:auto;
+	margin-right:auto;
+
+
+}
+
+#appstore{
+	width:40%;
+}
+
+#playstore{
+	width:46%;
+	
+}
+
+
+
+
+/*page 3. applicaiton*/
+.pagecuatro{
+	background-image:url(photos/logo3.jpg);
+	padding:2%;	
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  	box-shadow: 0 0 51px black;
+
+}
+
+
+
+
+
