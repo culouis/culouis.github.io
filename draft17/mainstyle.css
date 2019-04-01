@@ -70,8 +70,10 @@ nav a:hover {
 }
 
 @media screen and (max-width:800px) { 
-	.pageuno{
-		background-image:url(photos/logo2.jpg);
+	.pageuno, .pagedos, .pagetres, .pagecuatro{
+		background-image:url(photos/logo2.jpg)!important;
+		background-attachment:scroll!important;
+		
 		
 	}
 
