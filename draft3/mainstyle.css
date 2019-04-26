@@ -1,0 +1,121 @@
+
+
+/*set font and size of all the page*/
+body{
+	
+	font-family: "Comic Sans MS", cursive, sans-serif ;
+	margin: 0;
+	height:100%;
+}
+	
+	
+	
+	/*cellphone only*/
+@media only screen and (max-device-width: 1366px) {
+  .body {
+    background-attachment: scroll;
+  }
+  
+  
+  
+  
+}
+
+/*all pages make parallax scrolling effect*/
+.pageuno, .pagedos{
+	background-image:url(photos/logo3.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height:100%;
+}
+
+
+
+/*only page 1*/
+
+.pageuno{
+	background-size: contain;
+	
+}
+
+
+
+
+
+/*end of page1*/
+
+
+/*basic info and map
+		PAGE 2*/
+/*only page 2*/
+.pagedos{
+	background-image:url(photos/Farnacia.jpg);
+	padding:5%;	
+	
+}	
+
+
+.info, img.map{
+	border-radius: 25px;
+	text-align:center;
+	background-color:white;
+	min-width:150px;
+	margin:auto;
+	padding:1;
+	width:28%;
+	height:auto;
+	opacity: 0.9;
+
+	
+	}
+	
+
+#logo{
+	display:block;
+	border-radius: 25px;
+	margin:auto;
+	height:150px;
+	width:150px;
+
+}
+
+/*navtigation buttons settings*/
+a{
+	    color: Blue;
+    text-decoration: underline;
+
+	
+	
+}
+
+ a:hover{
+		background-color:white;
+		color:red;
+	
+}
+/*end of page 1*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+img.map{
+	margin-top:2%;
+	padding:0;
+	display:block;
+	border-radius: 25px;
+	opacity: 1;
+
+}*/
+

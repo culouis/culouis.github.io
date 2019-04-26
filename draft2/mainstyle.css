@@ -1,0 +1,111 @@
+
+
+body{
+	font-family: "Comic Sans MS", cursive, sans-serif ;
+	background-image:url(photos/logo01.jpg);
+	margin: 0;
+
+
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+	
+@media only screen and (max-device-width: 1366px) {
+  .pagedos {
+    background-attachment: scroll;
+  }
+}
+
+
+.pagedos{
+	
+	background-image:url(photos/Farnacia.jpg);
+	background-position: center ;
+	background-repeat: no-repeat;
+	margin-top:1000px;
+	height:auto;
+	padding:5%;
+
+}	
+
+
+
+ .test{
+	border-radius: 25px;
+	text-align:center;
+	
+	background-color:white;
+	
+	min-width:150px;
+	margin-right:auto;
+	margin-left:auto;
+	padding:4%;
+width:50%;
+	
+	
+	
+	}
+	
+#logo{
+	display:block;
+	border-radius: 25px;
+	margin:auto;
+	height:150px;
+	width:150px;
+
+}
+
+.info{
+	
+	
+	
+}
+
+/*
+ #logo{
+	border-radius: 25px;
+	display: block;
+	margin-left: auto;
+	margin-right: 10%;
+
+	}
+	
+	
+.info{
+	margin-top:1000px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	text-align: center;
+	
+}
+
+.location{
+	border-style: solid;
+	
+}
+
+
+img.logo{
+	border-style: solid;
+	margin:2%;
+	width:42%;
+	max-width: 42:%;
+  height: auto;
+	}
+
+
+
+.times{
+	margin-left:2%;
+	text-align: center;
+	border-style: solid;
+	width:42%;
+	
+}*/
