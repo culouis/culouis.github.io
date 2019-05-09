@@ -1,0 +1,206 @@
+
+/*the whole page */
+body{
+	background-image: url(photos/nyc2.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+    padding: 0;
+	}
+	
+/*make everything that contains text the same here*/
+#bio, #interests{
+	border-radius: 10px;
+	padding:1%;
+	text-align:center;
+	height:auto;
+	width:auto;
+	margin-top:5%;
+	font-size: 110%;
+	color:white;	
+	overflow:auto;
+	color:black;
+
+}	
+/*bigger h2 fonts*/
+h2{
+	font-size: 200%;
+}
+/*make p tags have dark background so its legible*/
+p{
+}
+
+/*name and pic*/
+.mememe{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin-top:1%;
+	min-height:100%;
+	width:100%;	
+	text-align:center;
+
+}
+
+/*my name*/
+#name{
+	color:Black;
+	font-size: 450%;
+	border-top: double;
+	border-bottom: double;
+	width:45%;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+	
+/*pic of me*/
+#me{
+	width:25%;
+}
+
+
+
+		/*PHONE SIZE*/
+@media screen and (max-width:850px) { 
+	body{
+		background-attachment: scroll !important;
+		/*background-image:url(photos/nyc.jpg);*/
+
+		
+	}
+
+	
+	
+}
+
+
+
+/*normal background editing*/
+#intro,#thingsiliketodo,#hobbies,#comprepair,#webdev{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	min-height:100%;
+	width:100%;	
+	overflow:auto;
+
+	
+}
+/*second page*/
+
+#intro{
+	
+	height:100%;
+	width:100%;
+	background-image:url(photos/longboard.jpg);	
+
+}
+
+/*text in intro page*/
+#bio{
+	float:right;
+	margin-left:40%;
+	margin-right:10%;
+}
+
+
+/*downlaod my resume button*/
+a button{
+	
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+
+	width: 300px;
+	height: 75px;
+	font-family: "Times New Roman", Times, serif;
+	box-shadow:5px 5px 5px  #566573;
+	opacity: .5;
+	border: solid;
+    color: black;
+	margin:2%;	
+}
+
+/*social media icons*/
+#socials{
+
+	overflow:hidden;
+	width:200;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+}
+
+.sm{
+	width:50;
+	height:40;
+	margin:3%;
+
+}
+
+
+/*thingsiliketodo div pink part*/
+
+#thingsiliketodo{
+	background-image:url(photos/hotelnyc.jpg);	
+	
+
+
+}
+
+#interests{
+	float:left;
+	margin-left:5%;
+	margin-right:60%;
+}
+
+.images2do{
+	display:inline-block;
+	margin:1%;
+	color:white;
+
+}
+.images2do img{
+	width:160;
+	height:160;
+	
+
+}
+
+
+/*hobbies page. Apple picture*/
+#hobbies{
+	background-image:url(photos/apple.jpg);	
+	background-position: bottom;
+
+	
+	
+	
+	
+	
+}
+
+/*footer settings*/
+
+
+
+footer a:hover, footer a:visited {
+	background-color: #111;
+	color:red;
+}
+
+footer a{
+	color:white;
+}
+
+
+
