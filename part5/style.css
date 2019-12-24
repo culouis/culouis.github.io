@@ -1,0 +1,117 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	font-family: "Lato", sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+
+}
+nav{
+
+}
+
+.sections{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	min-height:70%;
+	border:solid;
+	border-color:white;
+}
+
+
+#page1{
+	background-image: url(photos/lighthouse.jpg);
+	text-align:center;
+	color:white;
+  height:100%!important;
+  }
+#page1text{
+	position:absolute;
+	top:35%;
+	width:98%;
+}
+#name{
+	font-size:450%;
+}
+
+
+#page2{
+	background-image: url(photos/nikon.jpg);
+	padding:1%;
+	overflow:auto;	line-height:200%;
+}
+#page22{
+
+}
+
+#page2text{
+	color:white;
+	float:left;
+	width:45%;
+	margin:5%;
+}
+
+#linkedin, #ig, #fb{
+  height:auto;
+  display:block;
+  width:45%;
+  margin-left:30%;
+  margin-top:10%;
+}
+#picofme{
+	float:left;
+	box-shadow: 0 0 51px white;
+	border-radius:50%;
+	background-color:black;
+	width:30%;
+	margin:5%;
+}
+
+#page3{
+	background-image: url(photos/model3.jpg);
+	color:white;	line-height:200%;
+}
+#page3text{
+	margin:20%;
+}
+#up{
+  height:10%;
+}
+
+#up:hover{
+background-color:green;
+box-shadow: 0 0 51px white;
+border-radius:50%;
+}
+/* Use a media query to add a break point at 800px: */
+@media (max-width:500px) {
+  .sections{
+    background-position:   middle  ;
+  }
+
+  #page2text, #picofme{
+		float: none;
+		margin:1%;
+	}
+	#page2text{
+		width:95%;
+		margin:2%;
+	}
+}
+a{
+	color:pink;
+}
+a:hover{
+	color:white;
+}
+
+footer{
+	background-color: black;
+	padding:1%;
+	color:white;
+}
