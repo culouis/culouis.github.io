@@ -91,7 +91,7 @@ border-radius:50%;
 /* Use a media query to add a break point at 800px: */
 @media (max-width:500px) {
   .sections{
-    background-position:   middle  ;
+    background-position:   bottom  ;
   }
 
   #page2text, #picofme{
