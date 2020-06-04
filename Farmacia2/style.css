@@ -1,0 +1,58 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	font-family: "Lato", sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+
+
+}
+/*  background-image: url(photos/Farmacia.jpg);
+  border-color:red;
+  height:45%;
+  padding-top:5%;
+}
+#building{
+  width: 100%;
+  height: 100%;
+}*/
+#info{
+  background-image: url(photos/pencil.jpg);
+  padding-top:2%;
+  padding-bottom:2%;
+  height:85%;
+  background-position:Bottom left;
+}
+#logo{  border-radius: 50%;
+}
+#fb{
+  height:auto;
+  display:block;
+  width:15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.sections{
+  background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size:cover;
+
+
+  width:100%;
+}
+
+
+
+
+footer{
+	background-color: black;
+	padding-top:20px;
+  padding-bottom:20px;
+	color:white;
+  width:100%;
+}
